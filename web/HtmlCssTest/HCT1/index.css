@@ -525,13 +525,79 @@ ul{
     color: #CE6C04;
     background-color: inherit;
 }
+/*********************************footer*************************************/
+#footerMain{
+    width: 100%;
+    height: 105px;
+    background-color: #030304;
+    color: #E97705;
+}
 
+#footer{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#footer ul{
+    width: 570px;
+    position: absolute;
+    left: 0px;
+    top: 21px;
+}
+#footer ul li {
+    float: left;
+    color: #DBD9BA;
+    background-color: inherit;
+    font: normal 11px/20px Arial,Helvetica,sans-serif;
+}
+#footer ul li a{
+    color: #DBD9BA;
+    background-color: inherit;
+    font: normal 11px/20px Arial,Helvetica,sans-serif;
+    padding: 0 7px;
+    text-decoration: none;
+}
+#footer ul li a:hover{
+    color: #000;
+    background-color: #7EAA39;
+}
+#footer p.copyright{
+    font: normal 11px/20px Arial,Helvetica,sans-serif;
+    position: absolute;
+    left: 11px;
+    top: 42px;;
+}
+#footer p.design{
+    display: block;width: 194px;
+    height: 12px;
+    padding: 2px;
+    position: absolute;
+    left: 11px;
+    top: 62px;
+    font: bold 12px/20px Arial,Helvetica,sans-serif;
+    color: #7DC012;
+    background-color: inherit;
+}
+#footer p.design a.link{
+    font: bold 12px/20px Arial,Helvetica,sans-serif;
+    color: #7DC012;
+    background-color: inherit;
+    text-decoration: none;
+    padding: 2px;
+}
 
+#footer p.design a.link:hover{
+    color: #E97705;
+    background-color: #ffffff;
+}
 
-
-
-
-
+#footer img{
+    position: absolute;
+    left: 786px;
+    top: 20px;;
+    width: 159px;
+    height: 68px;
+}
 
 
 
