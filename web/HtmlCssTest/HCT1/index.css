@@ -399,22 +399,132 @@ ul{
     font: bold 11px/22px Arial,Helvetica,sans-serif;
 }
 
+/********************************bottom***************************************/
+#bottomMain{
+    width: 100%;
+    background-color: #E8E6CD;
+    color: #000000;
+    border-top: #DAD9C1 solid 2px;
+    border-bottom:#FFFDE7 solid 1px;
+    padding: 9px 0 22px 0;
+}
 
+#bottom{
+    width: 946px;
+    margin: 0 auto;
+    padding: 0 3px 0 11px;
+}
 
+#bottom ul.first{
+    width: 286px;
+    padding: 0;
+    margin: 0 35px 0 0;
+    float: left;
+}
 
+#bottom ul.first li.topHead{
+    background: url("images/bullet.gif")0 12px no-repeat #E8E6CD;
+    color: #CE6C04;
+    font: bold 18px/43px Arial,Helvetica,sans-serif;
+    padding: 0 0 0 26px;
+}
 
+#bottom ul.first li.normal{
+    padding: 0;
+    margin: 0;
+}
 
+#bottom ul.first li.normal a{
+    background: url("images/arrow_white.gif")0 5px no-repeat #E8E6CD;
+    padding: 0 0 0 12px;
+    color: #3F3D1F;
+    font: normal 12px/21px Arial ,Helvetica,sans-serif;
+    text-decoration: none;
+}
+#bottom ul.first li.normal a:hover{
+    color: #3F3D1F;
+    background-color: #D6D4BE;
+    text-decoration: none;
+}
 
+#bottom ul.second{
+    width: 298px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#bottom ul.second li.topHead2{
+    background: url("images/bullet.gif")0 12px no-repeat #E8E6CD;
+    color: #CE6C04;
+    font: bold 18px/43px Arial,Helvetica,sans-serif;
+    padding: 0 0 0 26px;
+}
+#bottom ul.second li.normal2{
+    padding:0;
+    margin:0;
+}
+#bottom ul.second li.normal2 a{
+    background:url(images/arrow_white.gif) 0 5px no-repeat #E8E6CD;
+    padding:0 0 0 12px;
+    color:#3F3D1F;
+    font:normal 12px/21px Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+#bottom ul.second li.normal2 a:hover{
+    color:#3F3D1F;
+    background-color:#D6D4BE;
+    text-decoration:none;
+}
 
+#bottom ul.third{
+    width: 298px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+#bottom ul.third li.topHead3{
+    background: url("images/bullet.gif")0 12px no-repeat #E8E6CD;
+    color: #CE6C04;
+    font: bold 18px/43px Arial,Helvetica,sans-serif;
+    padding: 0 0 0 26px;
+}
+#bottom ul.third li.normal3{
+    margin: 0;
+    padding: 0;
+}
+#bottom ul.third li.normal3 a{
+    background: url("images/arrow_white.gif")0 5px no-repeat #E8E6CD;
+    padding: 0 0 0 12px;
+    color: #3F3D1F;
+    font: normal 12px/21px Arial ,Helvetica ,sans-serif;
+    text-decoration: underline;
+}
+#bottom ul.third li.normal3 a:hover{
+    color: #3F3D1F;
+    background-color: #D6D4BE;
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
+#bottom ul.third li.xhtml{
+    background: url("images/xhtml_bg.gif") right top no-repeat;
+    width: 73px;
+    height: 22px;
+    padding: 0 0 0 29px;
+    margin: 15px 0 4px 0;
+    display: block;
+    float: left;
+}
+#bottom ul.third li.xhtml a{
+    color: #121213;
+    background-color: inherit;
+    font: bold 11px/22px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#bottom ul.third li.xhtml a:hover{
+    color: #CE6C04;
+    background-color: inherit;
+}
 
 
 

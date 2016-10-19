@@ -23,21 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HtmlCssTest/HCT1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65665233">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-15.172414">
+              <caret line="104" column="13" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="13" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HtmlCssTest/HCT1/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75862">
-              <caret line="397" column="17" selection-start-line="397" selection-start-column="17" selection-end-line="397" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.94277537">
+              <caret line="525" column="0" selection-start-line="525" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HtmlCssTest/HCT1/index.css" />
         <option value="$PROJECT_DIR$/HtmlCssTest/HCT1/index.html" />
+        <option value="$PROJECT_DIR$/HtmlCssTest/HCT1/index.css" />
       </list>
     </option>
   </component>
@@ -591,15 +593,15 @@
       <updated>1476699523535</updated>
       <workItem from="1476699527943" duration="9403000" />
       <workItem from="1476786257816" duration="2275000" />
-      <workItem from="1476869613655" duration="7465000" />
+      <workItem from="1476869613655" duration="10459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19143000" />
+    <option name="totallyTimeSpent" value="22137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="0" width="814" height="867" extended-state="0" />
+    <frame x="793" y="0" width="814" height="867" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -646,7 +648,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +666,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,18 +685,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HtmlCssTest/HCT1/index.css">
+    <entry file="file://$PROJECT_DIR$/HtmlCssTest/HCT1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75862">
-          <caret line="397" column="17" selection-start-line="397" selection-start-column="17" selection-end-line="397" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="-15.172414">
+          <caret line="104" column="13" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HtmlCssTest/HCT1/index.html">
+    <entry file="file://$PROJECT_DIR$/HtmlCssTest/HCT1/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65665233">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.94277537">
+          <caret line="525" column="0" selection-start-line="525" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
           <folding />
         </state>
       </provider>
