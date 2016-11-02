@@ -1,0 +1,599 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+div ,h1,h2,h3,h4,h5,p,form,label,input,textarea,img,span{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+
+.spacer{
+    clear: both;
+
+} /*用于清除浮动防止影响其他效果的展示*/
+
+/*****************************header***********************************/
+#headerMain{
+    width: 100%;
+    background: url("images/header_bg.gif") 0 0 repeat-x #6B1420;
+    color: #D2C7A3;
+}
+
+#header{
+    width: 973px;
+    margin: 0 auto;
+}
+
+#header img.logo{
+    float: left;
+    display: block;
+    width: 236px;
+    height: 105px;
+}
+
+#header ul.nav{
+    width: 398px;
+    height: 30px;
+    background: url("images/top_nav_bg.gif") right top no-repeat;
+    padding: 76px 0 0 0;
+    float: left;
+}
+
+#header ul.nav li{
+    margin: 0 3px 0 0;
+    float: left;
+    line-height: 0;
+    font-size: 0;
+}
+
+#header ul.nav li a{
+    display: block;
+    background: url("images/nav_bg.gif") 0 0 no-repeat;
+    width: 74px;
+    height: 30px;
+    font: bold 12px/30px Arial,Helvetica,sans-serif;
+    color: #000;
+    background-color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+#header ul.nav li a:hover{
+    background: url("images/nav_bg_hover.gif") 0 0 no-repeat;
+    color: #fff;
+    background-color: inherit;
+}
+
+#header ul.nav li a.hover{ /*此段代码单独设置一个li中a标签的显示*/
+    display:block;
+    background:url(images/nav_bg_hover.gif) 0 0 no-repeat;
+    width:74px;
+    height:30px;
+    font:bold 12px/30px Arial, Helvetica, sans-serif;
+    color:#fff;
+    background-color:inherit;
+    text-decoration:none;
+    text-align:center;
+    cursor:text;
+}
+
+#header ul.nav li .noMargin{
+    margin: 0;
+}
+
+#header form{
+    width: 260px;
+    height: 45px;
+    padding: 42px 0 0 48px;
+    background: url("images/serch_icon.gif") 9px 42px no-repeat;
+    float: left;
+}
+
+#header form input .txtBox{
+    width: 184px;
+    height: 19px;
+    border-bottom: #D4D0C8 solid 1px;
+    border-right: #D4D0C8 solid 1px;
+    border-top: #808080 solid 1px;
+    border-left: #808080 solid 1px;
+
+    font: normal 10px/19px Arial,Helvetica,sans-serif;
+    color: #000;
+    background-color: #fff;
+    padding: 0 0 0 14px;
+    float: left;
+}
+
+#header form input .go{
+    background: url("images/btn_go.gif") 0 0 no-repeat;
+    width: 56px;
+    height: 21px;
+    float: right;
+    cursor: pointer;/*设置光标的显示样式*/
+    border: none;
+    font:bold 12px/21px Arial, Helvetica, sans-serif;
+    color:#000;
+    background-color:#93A04B;
+}
+
+#header form label{
+    display: block;
+    width: 188px;
+    height: 18px;
+    background: url("images/adv_serch_bg.gif") 0 0 no-repeat;
+    padding: 0 0 0 12px;
+    float: left;
+}
+
+#header form label a{
+    font: bold 11px/18px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#header form label a:hover{
+    text-decoration: underline;
+}
+
+#header ul.sub{
+    width: 634px;
+    height: 41px;
+    float: left;
+}
+
+#header ul.sub li{
+    float: left;
+    background: url("images/sub_nav_div.gif") right top no-repeat;
+}
+
+#header ul.sub li a{
+    padding: 0 20px;
+    font: normal 13px/41px Arial,Helvetica,sans-serif;
+    color: #CFCFCF;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#header ul.sub li a:hover{
+    color:#93A04B;
+    background-color: inherit;
+}
+
+#header ul.sub li a.first{
+    padding: 0 20px 0 0;
+    font: normal 13px/41px Arial,Helvetica,sans-serif;
+    color: #CFCFCF;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#header ul.sub li a.first:hover{
+    color: #93A04B;
+    background-color: inherit;
+}
+
+#header ul.sub li.noImg{
+    background-image: none;
+}
+
+#header h2{
+    display: block;
+    height: 45px;
+    float: left;
+    font: normal 24px/45px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    margin: 7px 0 0 0;
+    width: 942px;
+}
+#header h2 span{
+    color: #F4E6A1;
+    background-color: inherit;
+}
+#header p{
+
+    float: left; /*该浮动影响背景显示效果*/
+    font: normal 15px/24px Arial,Helvetica,sans-serif;
+    color: #D2C7A3;
+    background-color: inherit;
+    margin: 0;
+    width: 942px;
+}
+#header p span.bg{
+    color: #D2C7A3;
+    background-color: #45060F;
+}
+
+/********************body************************************/
+
+#bodyMain{
+    width: 100%;
+    background: url("images/body_bg.gif") 0 0 repeat-x #FAF8F1;
+    padding: 11px 0 0 0;
+    color: #000;
+}
+
+#body{
+    width: 942px;
+    margin: 0 auto;
+}
+
+#test{
+    width: 264px;
+    height: 98px;
+    border-right: #DED8C3 solid 4px;
+    float: left;
+    background: url("images/test_bg.gif") 0 0 no-repeat;
+    margin: 0 14px 0 0;
+    padding: 14px 17px 0 25px;
+}
+
+#test h2{
+    display: block;
+    width: 120px;
+    height: 14px;
+    float: left;
+    font: bold 18px/14px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    margin: 0 0 8px 0;
+}
+
+#test h3{
+    display: block;
+    width: 120px;
+    height: 10px;
+    float: left;
+    font: bold 10px/10px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#test p{
+    width: 136px;
+    display: block;
+    float: right;
+    font: bold 10px/12px Arial,Helvetica,sans-serif;
+    color: #88816C;
+    background-color: inherit;
+    margin: 13px 0 0 0;
+}
+
+#test p b{
+    width: 136px;
+    display: block;
+    font: bold 11px/12px Arial,Helvetica,sans-serif;
+    color: #333333;
+    background-color: inherit;
+    margin: 0 0 5px 0;
+}
+#test p a.readLink{
+    width: 136px;
+    display: block;
+    font: bold 10px/12px Arial,Helvetica,sans-serif;
+    color: #821122;
+    background-color: inherit;
+    margin: 0 0 5px 0;
+    text-decoration: underline;
+}
+
+#test p a.readLink:hover{
+    color: #821122;
+    background-color: #E4E0D3;
+}
+
+#test p a.more2{
+    display: block;
+    background: url("images/more_bg2.gif") 0 0 no-repeat;
+    width: 59px;
+    height: 16px;
+    float: right;
+    font: bold 10px/16px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+    text-align: center;
+    margin: 8px 0 0 0;
+}
+#test p a.more2:hover{
+    color: #F4E6A1;
+    background-color: inherit;
+}
+
+#info{
+    width: 259px;
+    height: 98px;
+    border-right: #DED8C3 solid 4px;
+    float: left;
+    background: url("images/test_bg.gif") 0 0 no-repeat;
+    margin: 0 14px 0 0;
+    padding: 14px 16px 0 30px;
+}
+#info h2{
+    display: block;
+    width: 117px;
+    height: 14px;
+    float: left;
+    font: bold 18px/14px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    margin: 0 0 8px 0;
+    padding: 0 0 0 3px;
+}
+#info h3{
+    display: block;
+    width: 115px;
+    height: 10px;
+    float: left;
+    font:  bold 10px/10px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+
+#info p{
+    width: 136px;
+    display: block;
+    float: right;
+    font: bold 10px/12px Arial,Helvetica,sans-serif;
+    color: #88816C;
+    background-color: inherit;
+    margin: 13px 0 0 0;
+}
+
+#info p b{
+    width: 136px;
+    display: block;
+    font: bold 11px/12px Arial,Helvetica,sans-serif;
+    color: #333333;
+    background-color: inherit;
+    margin: 0 0 5px 0;
+}
+
+#info p a.readLink{
+    width: 136px;
+    display: block;
+    font: bold 10px/12px Arial,Helvetica,sans-serif;
+    color: #821122;
+    background-color: inherit;
+    margin: 0 0 5px 0;
+    text-decoration: underline;
+}
+
+#info p a.readLink:hover{
+    color: #821122;
+    background-color: #E4E0D3;
+}
+
+#info p a.more3{
+    display: block;
+    background: url("images/more_bg2.gif") 0 0 no-repeat;
+    width: 59px; height: 16px;
+    float: right;
+    font: bold 10px/16px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+#info p a.more3:hover{
+    color: #F4E6A1;
+    background-color: inherit;
+}
+
+
+#support{
+    width: 260px;
+    height: 98px;
+    float: left;
+    background: url("images/test_bg.gif") 0 0 no-repeat;
+    margin: 0;
+    padding: 14px 0 0 31px;
+}
+
+#support h2{
+    display: block;
+    width: 100px;
+    height: 14px;
+    float: left;
+    font: bold 18px/14px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    margin:  0 0 8px 0;
+    padding: 0 0 0 8px;
+}
+
+#support h3{
+    display: block;
+    width: 100px;
+    height: 10px;
+    float: left;
+    font: bold 10px/10px Arial,Helvetica,sans-serif;
+    color: #fff;
+    background-color: inherit;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+
+#support p{
+    width: 136px;
+    display: block;
+    float: right;
+    font: bold 10px/12px Arial,Helvetica,sans-serif;
+    color: #88816C;
+    background-color: inherit;
+    margin: 13px 0 0 0;
+}
+
+#support p b{
+    width: 136px;
+    display: block;
+    font: bold 11px/12px Arial,Helvetica,sans-serif;
+    color: #333333;
+    background-color: inherit;
+    margin: 0 0 5px 0;
+}
+
+#support p a.readLink{
+    width: 136px;
+    display: block;
+    font: bold 10px/12px Arial,Helvetica,sans-serif;
+    color: #821122;
+    background-color: inherit;
+    margin: 0 0 5px 0;
+    text-decoration: underline;
+}
+
+#support p a.readLink:hover{
+    color: #821122;
+    background-color: #E4E0D3;
+}
+#support p a.more4{
+    display:block;
+    background:url(images/more_bg2.gif) 0 0 no-repeat;
+    width:59px;
+    height:16px;
+    float:right;
+    font:bold 10px/16px Arial, Helvetica, sans-serif;
+    color:#fff;
+    background-color:inherit;
+    text-decoration:none;
+    text-align:center;
+    margin:8px 0 0 0;
+}
+#support p a.more4:hover{
+    color:#F4E6A1;
+    background-color: inherit;
+}
+
+
+#body2{
+    width: 634px;
+    margin: 13px 0 ;
+    float: left;
+}
+
+#body2 p.banner{
+    display: block;
+    background: url("images/banner.gif") 0 0 no-repeat;
+    width: 73px;
+    height: 61px;
+    padding: 8px 0 12px 561px;
+    margin: 0;
+}
+
+#body2 p.banner a.join{
+    display: block;
+    background: url("images/join.gif")  0 0 no-repeat;
+    width: 61px;
+    height: 61px;
+    float: left;
+}
+
+#body2 p.banner a.join:hover{
+    background: url("images/join_hover.gif") 0 0 no-repeat;
+}
+
+#event{
+    width: 307px;
+    border-right: #7EAA39 solid 4px;
+    float: left;
+    margin: 20px 27px 0 0;
+}
+#event h2{
+    display: block;
+    width: 223px;
+    height: 31px;
+    background: url("images/latest_event.gif") 0 0 no-repeat;
+    padding: 0 0 0 37px;
+    border-bottom: #D7CEB7 solid 1px;
+    margin: 0 0 17px 0;
+}
+
+#event p.eventTxt1{
+    width: 267px;
+    font: normal 12px/21px Arial,Helvetica,sans-serif;
+    padding: 0 0 19px 0;
+}
+
+#event p.eventTxt1 span.red{
+    font: bold 11px/10px Arial ,Helvetica,sans-serif;
+    color: #6B1420;
+    background-color: inherit;
+    margin: 0 0 12px 0;
+    display: block;
+    text-transform: uppercase;
+}
+#event p.eventTxt1 span.yellow{
+    color: #B3770F;
+    background-color: inherit;
+    font: bold 12px/21px Arial,Helvetica,sans-serif;
+}
+
+#event p.eventTxt2{
+    width: 267px;
+    font: normal 12px/26px Arial,Helvetica,sans-serif;
+    padding: 0 0 22px 0;
+    color: #9D9478;
+    background-color: inherit;
+}
+#event p.eventTxt3{
+    width: 267px;
+    font: normal 12px/21px Arial,Helvetica,sans-serif;
+    padding: 0 0 38px 0;
+}
+#event p.eventTxt3 span.yellow2{
+    color: #B3770F;
+    background-color: inherit;
+    font: bold 12px/21px Arial,Helvetica,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

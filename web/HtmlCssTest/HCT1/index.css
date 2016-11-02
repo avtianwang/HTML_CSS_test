@@ -589,8 +589,6 @@ ul{
 #footer p.design a.link:hover{
     color: #E97705;
     background-color: #ffffff;
-
-    background: inherit;
 }
 
 #footer img{
